@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(167, 97, 5);
+}
+
+#left{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#right{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(27, 27, 27);
+}
+
+#car{
+    position: absolute;
+    width: 110%;
+    height: 80%;
+    top: 10%;
+    right: 0%;
+    background-image: url(https://www.techgrapple.com/wp-content/uploads/2016/09/3D-Black-background-car.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#car h2{
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+    letter-spacing: 4px;
+}
+
+#car h4{
+    position: absolute;
+    bottom: 5.5%;
+    left: 5%;
+    word-spacing: 5px;
+}
+
+#car h5{
+    position: absolute;
+    left: 26%;
+    bottom: 8.5%;
+    letter-spacing: 4px;
+}
+
+#car i{
+    position: absolute;
+    bottom: 5%;
+    font-size: 20px;
+}
+
+#fb{
+    position: absolute;
+    right: 11%;
+}
+
+#insta{
+    position: absolute;
+    right: 8%;
+}
+
+#twit{
+    position: absolute;
+    right: 5%;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#text{
+    position: absolute;
+    left: 58%;
+    top: 20%;
+    letter-spacing: 10px;
+}
+
+#left h1{
+    position: absolute;
+    top: 15%;
+    left: -35px;
+    color: #000;
+    font-size: 100px;
+}
+
+#left #h1{
+    position: absolute;
+    left: 175px;
+    color: #fff;
+    z-index: 1;
+}
+
+#left img{
+    position: absolute;
+    width: 120px;
+    top: 2%;
+    left: 5%;
+    background-color: #fff;
+}
+
+#text h2{
+    margin-left: -100px;
+    margin-top: 180px;
+    letter-spacing: 6px;
+}
+
+#lbtm{
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    bottom: 20%;
+    background-color: black;
+}
+
+#lbtm h2{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0,-50%);
+    font-weight: 400;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#text1{
+    position: absolute;
+    width: 42%;
+    bottom: 8%;
+    left: 12%;
+    line-height: 20px;
+}
+
+#rbtm,#rtext{
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    height: 10%;
+}
+
+#rbtm{
+    background-color: blue;
+}
+
+#rbtm h5,#rtext h5,#rtext h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+#rtext{
+    position: absolute;
+    left: 30%;
+}
+
+#rtext h5{
+    margin-left: 15px;
+}
+
+#rtext h1{
+    position: absolute;
+    left: 40%;
+    margin-left: 260px;
+    letter-spacing: 6px;
+    font-weight: 700;
+}
